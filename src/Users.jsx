@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 const AllUsers = ({users}) =>{
     return(
-      <div>
+      <div className="container">
         <h1>Users</h1>
         <ul>
           {
