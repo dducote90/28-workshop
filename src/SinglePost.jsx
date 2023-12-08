@@ -14,7 +14,7 @@ const SinglePost = ({posts}) => {
             }
 
                 return (
-                    <div className="conatiner">
+                    <div className="container">
                         <h1>{singPost.title}</h1>
                         <p>{singPost.body}</p>
                         <Link to="/posts">Back to all posts</Link>
